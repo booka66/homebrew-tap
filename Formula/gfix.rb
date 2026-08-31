@@ -22,7 +22,7 @@ class Gfix < Formula
   end
 
   test do
-    output = shell_output("#{bin}/gstack-info bogus 2>&1", 1)
-    assert_match "usage: gstack-info", output
+    system "git", "init", "-q"
+    assert_equal "unknown", shell_output("#{bin}/gstack-info host").strip
   end
 end
