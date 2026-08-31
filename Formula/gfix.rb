@@ -1,8 +1,8 @@
 class Gfix < Formula
   desc "Stacked-PR tools on plain git: absorb-driven fixups, folding, stack push"
   homepage "https://github.com/booka66/gfix"
-  url "https://github.com/booka66/gfix/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "37a97fbd54755e23f5ac1f335844bf6c27d440d2a6c8d174e2d10ff2c2b04466"
+  url "https://github.com/booka66/gfix/archive/refs/tags/v0.1.1.tar.gz"
+  sha256 "d55d49c5c3b04e978838cf9aab88b9157568096c56679ad3cdd422ba1eafac01"
   license "MIT"
 
   depends_on "bash"
